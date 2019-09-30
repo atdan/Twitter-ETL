@@ -2,3 +2,4 @@ config
 __init__.py
 .idea
 dump.rdb
+data 1

@@ -21,7 +21,7 @@ class StreamListener(tweepy.StreamListener):
             'retweeted': status.retweeted,
             'retweet_count': status.retweet_count,
             'created_at': str(status.created_at),
-            'username': status.user.name,
+            'username': status.user.screen_name,
             'profile_img_url': status.user.profile_image_url,
             'followers': status.user.followers_count,
             'user_id': status.user.id,
