@@ -1,7 +1,6 @@
 import json
 import schedule
 from kafka import KafkaProducer, KafkaConsumer
-from crontab import CronTab
 import time, calendar
 import redis
 
