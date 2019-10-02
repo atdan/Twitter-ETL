@@ -24,4 +24,14 @@ tweepy 3.8+
 
 
 ## How to run
+Create a folder named "config", and put in settings.py file to store the following: 
+```
+TRACK_TERMS = ["Buhari", "Lagos", "Nigeria"]
+CONSUMER_KEY = ""
+CONSUMER_SECRET = ""
+ACCESS_TOKEN = ""
+ACCESS_TOKEN_SECRET = ""
+```
+Go to the terminal and run
+
 ``` python3 getTweets.py ```
